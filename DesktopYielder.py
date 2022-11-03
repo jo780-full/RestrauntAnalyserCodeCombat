@@ -17,9 +17,9 @@ import os
 
 ####Email Services################################################################
 
-MY_ADDRESS = "josephrvishal@gmail.com"
-MY_PASSWORD = "xccbvoonibqawmfu"
-SENDER_EMAIL = "josephrvishal@gmail.com"
+MY_ADDRESS = <Your Email Address>
+MY_PASSWORD = <Your Password>
+SENDER_EMAIL = <Sender Email>
 HOST = "smpt.gmail.com"
 PORT = 587
 s = smtplib.SMTP("smtp.gmail.com", 587)
