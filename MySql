@@ -1,0 +1,14 @@
+##Table for YeildResult
+Create Table YeildResult(id int primary key auto_increment,
+ItemName varchar(20) default 'item',
+InitalWeight float,
+TotalCost float,
+PricePerKilo float,
+FinalWeight float,
+TotalfCost float,
+finalYeild float,
+NetCost float,
+CalculatedCostWastage float,
+percentageUsed float);
+##Table for Raw Yeild;
+create table raw_yeild(id int primary key auto_increment,Item varchar(30) default 'item',Weight float,Value float,TotalValue float);
